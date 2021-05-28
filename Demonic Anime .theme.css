@@ -1,0 +1,45 @@
+/**
+ * @name Demonic Anime 
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232450
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/base.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/4I3QCBZ.jpg');
+  --background-image-blur: 0px;
+  --background-image-size: contain;
+  --background-image-position: center;
+  --popout-modal-image: url('https://i.imgur.com/5l9tg1u.jpg');
+  --popout-modal-blur: 0px;
+  --popout-modal-size: contain;
+  --popout-modal-position: Bottom center;
+  --home-button-image: url('https://i.imgur.com/6ck8IJi.jpg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.72;
+  --middle-brightness: 0.52;
+  --right-brightness: 1;
+  --popout-modal-brightness: 0.06;
+  --gradient-primary: 230,17,1;
+  --gradient-secondary: 0,0,0;
+  --link-colour: #FFFFFF;
+  --scrollbar-colour: rgb(77,168,180,1);
+  --gradient-direction: 9deg;
+  --tint-colour: 255,51,36;
+  --tint-brightness: 0.1;
+  --font: Whitney;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --show-gift-gif-buttons: none;
+  --update-notice-1: none;
+}
